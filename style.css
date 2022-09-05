@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Stardos Stencil', Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+.background {
+    background: url("./calculatinginfinity.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: calc(100vw + 100px);
+    height: calc(100vh + 100px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-percentage {
+   font-size: 4.3em;
+   color: rgb(252, 249, 249);
+   margin: 0 auto;
+
+}
